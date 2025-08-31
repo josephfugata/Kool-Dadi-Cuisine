@@ -12,19 +12,19 @@ const testimonials = [
   {
     name: 'Maria G.',
     review: 'Super sulit! Perfect for lunch sa office. Order ulit ako bukas!',
-    image: 'https://picsum.photos/100/100',
+    initials: 'MG',
     hint: 'happy woman',
   },
   {
     name: 'John D.',
     review: 'The best siomai in town, hands down. Yung chili garlic, game-changer. Ang bilis pa ng delivery!',
-    image: 'https://picsum.photos/100/100',
+    initials: 'JD',
     hint: 'smiling man',
   },
   {
     name: 'Sarah L.',
     review: "Love ng kids ko yung Barkada Box. Go-to namin for weekend movie nights. Napaka-convenient!",
-    image: 'https://picsum.photos/100/100',
+    initials: 'SL',
     hint: 'happy person',
   },
 ];
@@ -49,7 +49,7 @@ export default function SocialProof() {
               <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
                 <Image
                   className="rounded-full"
-                  src={testimonial.image}
+                  src={`https://placehold.co/80x80/EFEFEF/000000/png?text=${testimonial.initials}`}
                   alt={`Photo of ${testimonial.name}`}
                   width={80}
                   height={80}
@@ -80,7 +80,7 @@ export default function SocialProof() {
                     <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
                       <Image
                         className="rounded-full"
-                        src={testimonial.image}
+                        src={`https://placehold.co/80x80/EFEFEF/000000/png?text=${testimonial.initials}`}
                         alt={`Photo of ${testimonial.name}`}
                         width={80}
                         height={80}

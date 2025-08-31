@@ -13,6 +13,12 @@ const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({ children, className }
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // IntersectionObserver is a browser API. We need to make sure this code
+    // only runs on the client.
+    if (typeof window === "undefined" || !ref.current) {
+        return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -26,10 +32,8 @@ const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({ children, className }
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
+    observer.observe(ref.current);
+    
     return () => {
       if (ref.current) {
         observer.unobserve(ref.current);
