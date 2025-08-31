@@ -1,0 +1,45 @@
+import { Heart, Smile, Zap } from 'lucide-react';
+
+const promises = [
+  {
+    icon: Heart,
+    title: 'Made with Love',
+    description: 'Every batch is prepared with care, as if we were making it for our own family.',
+  },
+  {
+    icon: Smile,
+    title: 'Your Happiness',
+    description: 'We\'re not happy unless you are. We aim to bring a smile to your face with every order.',
+  },
+  {
+    icon: Zap,
+    title: 'Simply Effortless',
+    description: 'From ordering to delivery, we make the entire process smooth and convenient for you.',
+  },
+];
+
+export default function OurPromise() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-primary/5">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Promise to You</h2>
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
+              It's simple. We're committed to delivering not just siomai, but a delightful experience.
+            </p>
+        </div>
+        <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-3">
+          {promises.map((promise, index) => (
+            <div key={index} className="flex flex-col items-center text-center gap-2">
+              <div className="bg-primary text-primary-foreground rounded-full p-4 mb-4">
+                <promise.icon className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-bold font-headline">{promise.title}</h3>
+              <p className="text-sm text-muted-foreground">{promise.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
