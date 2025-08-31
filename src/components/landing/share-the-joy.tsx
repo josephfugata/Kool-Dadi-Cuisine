@@ -25,7 +25,7 @@ export default function ShareTheJoy() {
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <Image
-                src="https://picsum.photos/600/400"
+                src="/friends-in-picknick.webp"
                 alt="Friends sharing food"
                 width={600}
                 height={400}
