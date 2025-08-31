@@ -8,14 +8,13 @@ const PesoIcon = (props: React.SVGProps<SVGSVGElement>) => (
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
+      strokeWidth="2.5"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M8 12h4m-4-2h4m-4 4h4" />
-      <path d="M12 7v10" />
-      <path d="M12 7a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4" />
+        <path d="M8 19V5h4a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4H8" />
+        <path d="M8 12h5" />
     </svg>
 );
 
