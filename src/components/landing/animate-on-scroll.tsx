@@ -9,14 +9,17 @@ interface AnimateOnScrollProps {
 }
 
 const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({ children, className }) => {
+  const [isMounted, setIsMounted] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // IntersectionObserver is a browser API. We need to make sure this code
-    // only runs on the client.
-    if (typeof window === "undefined" || !ref.current) {
-        return;
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isMounted || !ref.current) {
+      return;
     }
 
     const observer = new IntersectionObserver(
@@ -36,10 +39,15 @@ const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({ children, className }
     
     return () => {
       if (ref.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(ref.current);
       }
     };
-  }, []);
+  }, [isMounted]);
+
+  if (!isMounted) {
+    return null;
+  }
 
   return (
     <div

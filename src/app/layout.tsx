@@ -44,11 +44,14 @@ export const metadata: Metadata = {
     creator: "@kool_dadi_cuisine", // Replace with your Twitter handle
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon/favicon.ico",
+    shortcut: "/favicon/favicon-16x16.png",
+    apple: "/favicon/apple-touch-icon.png",
+    other: [
+      { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon/favicon-32x32.png' },
+    ],
   },
-  manifest: `${siteConfig.url}/site.webmanifest`, // Replace with your actual manifest path
+  manifest: `/favicon/site.webmanifest`,
 };
 
 export default function RootLayout({
