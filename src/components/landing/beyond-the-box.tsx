@@ -4,7 +4,7 @@ export default function BeyondTheBox() {
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40">
       <Image
-        src="https://picsum.photos/1920/1080"
+        src="/midnight-snack.webp"
         alt="A vibrant office party with people enjoying food"
         fill
         className="object-cover -z-10 brightness-[.3]"
