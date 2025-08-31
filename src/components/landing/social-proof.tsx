@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Carousel,
@@ -29,6 +28,13 @@ const testimonials = [
   },
 ];
 
+const AvatarCircle = ({ initials }: { initials: string }) => (
+    <div className="flex items-center justify-center w-20 h-20 rounded-full bg-muted text-muted-foreground" data-ai-hint="initials avatar">
+        <span className="text-3xl font-semibold">{initials}</span>
+    </div>
+);
+
+
 export default function SocialProof() {
   return (
     <section id="reviews" className="w-full py-12 md:py-24 lg:py-32 bg-background">
@@ -47,14 +53,7 @@ export default function SocialProof() {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="flex flex-col items-center justify-center p-6 text-center shadow-lg">
               <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
-                <Image
-                  className="rounded-full"
-                  src={`https://placehold.co/80x80/EFEFEF/000000/png?text=${testimonial.initials}`}
-                  alt={`Photo of ${testimonial.name}`}
-                  width={80}
-                  height={80}
-                  data-ai-hint={testimonial.hint}
-                />
+                <AvatarCircle initials={testimonial.initials} />
                 <blockquote className="text-lg font-semibold leading-snug">
                   “{testimonial.review}”
                 </blockquote>
@@ -78,14 +77,7 @@ export default function SocialProof() {
                 <div className="p-1 h-full">
                   <Card className="h-full flex flex-col items-center justify-center p-6 text-center shadow-lg">
                     <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
-                      <Image
-                        className="rounded-full"
-                        src={`https://placehold.co/80x80/EFEFEF/000000/png?text=${testimonial.initials}`}
-                        alt={`Photo of ${testimonial.name}`}
-                        width={80}
-                        height={80}
-                        data-ai-hint={testimonial.hint}
-                      />
+                      <AvatarCircle initials={testimonial.initials} />
                       <blockquote className="text-lg font-semibold leading-snug">
                         “{testimonial.review}”
                       </blockquote>
