@@ -11,7 +11,7 @@ export default function FloatingCta() {
           message="Hi! I'd like to order."
           aria-label="Chat to Order"
         >
-          <MessengerLogo className="h-8 w-8 text-secondary-foreground" />
+          <MessengerLogo className="h-10 w-10 text-secondary-foreground" />
         </MessengerButton>
     </div>
   )
