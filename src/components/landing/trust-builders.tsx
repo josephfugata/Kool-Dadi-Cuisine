@@ -1,4 +1,24 @@
-import { Leaf, Truck, CircleDollarSign } from 'lucide-react';
+import { Leaf, Truck } from 'lucide-react';
+
+const PesoIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M8 12h4m-4-2h4m-4 4h4" />
+      <path d="M12 7v10" />
+      <path d="M12 7a4 4 0 0 1 4 4v0a4 4 0 0 1-4 4" />
+    </svg>
+);
+
 
 const benefits = [
   {
@@ -12,7 +32,7 @@ const benefits = [
     description: 'Ang siomai mo, darating agad sa pinto mo, mabilis pa sa ex mo!',
   },
   {
-    icon: CircleDollarSign,
+    icon: PesoIcon,
     title: 'Sulit sa Pera',
     description: 'Madaming serving sa presyong hindi masakit sa bulsa.',
   },
