@@ -9,7 +9,9 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-  SheetClose
+  SheetClose,
+  SheetTitle,
+  SheetHeader,
 } from "@/components/ui/sheet"
 
 export default function Header() {
@@ -46,10 +48,14 @@ export default function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right">
+            <SheetHeader>
+              <SheetTitle>
+                <Link href="#" className="flex items-center gap-2 text-lg font-semibold" onClick={closeSheet}>
+                  <span className="text-2xl font-headline text-primary">Kool Dadi Cuisine</span>
+                </Link>
+              </SheetTitle>
+            </SheetHeader>
             <nav className="grid gap-6 text-lg font-medium mt-10">
-              <Link href="#" className="flex items-center gap-2 text-lg font-semibold" onClick={closeSheet}>
-                <span className="text-2xl font-headline text-primary">Kool Dadi Cuisine</span>
-              </Link>
               <SheetClose asChild>
                 <Link href="#order" className="hover:text-foreground/80 text-foreground" onClick={closeSheet}>
                   Menu
