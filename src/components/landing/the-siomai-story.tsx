@@ -11,7 +11,7 @@ export default function TheSiomaiStory() {
           </p>
         </div>
         <Image
-          src="/kwentong-kusina.webp?cached=yes"
+          src="/kwentong-kusina.webp"
           alt="Vintage photo of a family cooking"
           width={600}
           height={600}
