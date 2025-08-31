@@ -32,7 +32,7 @@ export default function HowItWorks() {
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 grid-cols-1 sm:grid-cols-3 md:gap-12 mt-12">
           {steps.map((step) => (
-            <div key={step.title} className="flex flex-col items-center text-center gap-4 p-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+            <div key={step.title} className="flex flex-col items-center text-center gap-4 p-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl border border-border">
               <div className="bg-secondary text-secondary-foreground rounded-full p-4 mb-2">
                 <step.icon className="w-8 h-8" />
               </div>
