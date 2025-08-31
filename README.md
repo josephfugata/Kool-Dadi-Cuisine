@@ -6,7 +6,7 @@
 
 This project is a comprehensive showcase of building a visually stunning, conversion-focused, and incredibly fast single-page application for a local food business. It's designed not just to look good, but to perform exceptionally, providing a seamless user experience that turns visitors into customers.
 
-**[➡️ View Live Demo](https://kool-dadi-cuisine.com)**
+**[➡️ View Live Demo](https://kooldadi.pinoyentrepreneur.me)**
 
 ---
 
@@ -61,3 +61,11 @@ To run this project locally, follow these steps:
     npm run build
     ```
     The static files will be located in the `/out` directory, ready for deployment.
+
+---
+
+## 👤 Credits
+
+This project was expertly crafted by **Joseph Fugata**.
+
+-   **GitHub:** [https://github.com/josephfugata](https://github.com/josephfugata)
