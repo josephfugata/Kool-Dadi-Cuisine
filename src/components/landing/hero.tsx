@@ -4,11 +4,21 @@ import MessengerButton from "./messenger-button";
 export default function Hero() {
   return (
     <section className="relative w-full h-[80vh] min-h-[500px] flex items-center justify-center text-center">
+      {/* Desktop Image */}
       <Image
-        src="https://picsum.photos/1920/1080"
+        src="/Hero-Main-Image.webp"
         alt="A delicious box of siomai"
         fill
-        className="object-cover -z-10 brightness-50"
+        className="object-cover -z-10 brightness-50 hidden md:block"
+        priority
+        data-ai-hint="steamed dumplings"
+      />
+      {/* Mobile Image */}
+      <Image
+        src="/Hero-Main-Image-Mobile.webp"
+        alt="A delicious box of siomai"
+        fill
+        className="object-cover -z-10 brightness-50 md:hidden"
         priority
         data-ai-hint="steamed dumplings"
       />
