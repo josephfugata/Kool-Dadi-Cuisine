@@ -5,8 +5,8 @@ import './globals.css';
 const siteConfig = {
   name: 'Kool Dadi Cuisine',
   description: 'Gutom? Siomai ang sagot! Sariwa, legit na masarap, at abot-kaya. Isang chat lang, solve na ang cravings! Order na sa Messenger!',
-  url: 'https://kool-dadi-cuisine.com', // Replace with your actual domain
-  ogImage: 'https://kool-dadi-cuisine.com/og-image.png', // Replace with your actual OG image URL
+  url: 'https://kooldadi.pinoyentrepreneur.me',
+  ogImage: 'https://kooldadi.pinoyentrepreneur.me/og-image.png',
   keywords: ['siomai', 'filipino food', 'food delivery', 'manila', 'cravings', 'comfort food', 'street food', 'pinoy food'],
   author: 'Kool Dadi Cuisine',
 };
