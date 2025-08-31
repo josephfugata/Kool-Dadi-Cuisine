@@ -9,6 +9,7 @@ export default function Hero() {
         src="/Hero-Main-Image.webp"
         alt="A delicious box of siomai"
         fill
+        sizes="100vw"
         className="object-cover -z-10 brightness-50 hidden md:block"
         priority
         data-ai-hint="steamed dumplings"
@@ -18,6 +19,7 @@ export default function Hero() {
         src="/Hero-Main-Image-Mobile.webp"
         alt="A delicious box of siomai"
         fill
+        sizes="100vw"
         className="object-cover -z-10 brightness-50 md:hidden"
         priority
         data-ai-hint="steamed dumplings"
