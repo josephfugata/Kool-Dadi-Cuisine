@@ -33,7 +33,7 @@ export default function ShareTheJoy() {
                 data-ai-hint="friends eating"
             />
             <Image
-                src="https://picsum.photos/600/400"
+                src="/Family-Eating.webp"
                 alt="Family enjoying a meal"
                 width={600}
                 height={400}
