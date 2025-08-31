@@ -25,6 +25,7 @@ export default function MomentOfComfort() {
               <MessengerButton
                 size="lg"
                 message="Dadi, I need comfort food!"
+                variant="secondary"
               >
                 Treat ko sarili ko
               </MessengerButton>
