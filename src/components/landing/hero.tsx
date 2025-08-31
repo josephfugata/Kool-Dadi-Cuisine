@@ -3,7 +3,7 @@ import MessengerButton from "./messenger-button";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[80vh] min-h-[500px] flex items-center justify-center text-center">
+    <section className="relative w-full h-[80vh] min-h-[500px] flex items-center justify-center text-center animate-fade-in opacity-0 [--animation-delay:200ms]">
       {/* Desktop Image */}
       <Image
         src="/Hero-Main-Image.webp"

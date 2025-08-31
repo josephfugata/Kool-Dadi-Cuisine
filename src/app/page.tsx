@@ -3,6 +3,7 @@ import Header from '@/components/landing/header';
 import Hero from '@/components/landing/hero';
 import Footer from '@/components/landing/footer';
 import { Skeleton } from '@/components/ui/skeleton';
+import AnimateOnScroll from '@/components/landing/animate-on-scroll';
 
 const LoadingSkeleton = () => (
   <div className="container mx-auto px-4 md:px-6 py-12 md:py-24 lg:py-32">
@@ -40,20 +41,20 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <MomentOfComfort />
-        <BoxOptions />
-        <ShareTheJoy />
-        <TrustBuilders />
-        <YourDailyWin />
-        <HowItWorks />
-        <SocialProof />
-        <TheSiomaiStory />
-        <BeyondTheBox />
-        <Promo />
-        <LateNightCravings />
-        <OurPromise />
-        <Faq />
-        <JoinTheCommunity />
+        <AnimateOnScroll><MomentOfComfort /></AnimateOnScroll>
+        <AnimateOnScroll><BoxOptions /></AnimateOnScroll>
+        <AnimateOnScroll><ShareTheJoy /></AnimateOnScroll>
+        <AnimateOnScroll><TrustBuilders /></AnimateOnScroll>
+        <AnimateOnScroll><YourDailyWin /></AnimateOnScroll>
+        <AnimateOnScroll><HowItWorks /></AnimateOnScroll>
+        <AnimateOnScroll><SocialProof /></AnimateOnScroll>
+        <AnimateOnScroll><TheSiomaiStory /></AnimateOnScroll>
+        <AnimateOnScroll><BeyondTheBox /></AnimateOnScroll>
+        <AnimateOnScroll><Promo /></AnimateOnScroll>
+        <AnimateOnScroll><LateNightCravings /></AnimateOnScroll>
+        <AnimateOnScroll><OurPromise /></AnimateOnScroll>
+        <AnimateOnScroll><Faq /></AnimateOnScroll>
+        <AnimateOnScroll><JoinTheCommunity /></AnimateOnScroll>
       </main>
       <Footer />
     </div>
