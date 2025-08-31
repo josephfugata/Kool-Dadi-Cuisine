@@ -7,7 +7,7 @@ export default function MomentOfComfort() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <Image
-            src="https://picsum.photos/600/400"
+            src="/kuya-at-street.webp"
             alt="Person enjoying a quiet moment with siomai"
             width={600}
             height={400}
