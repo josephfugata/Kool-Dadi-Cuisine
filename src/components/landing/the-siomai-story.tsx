@@ -11,7 +11,7 @@ export default function TheSiomaiStory() {
           </p>
         </div>
         <Image
-          src="https://picsum.photos/600/600"
+          src="/kwentong-kusina.webp"
           alt="Vintage photo of a family cooking"
           width={600}
           height={600}
