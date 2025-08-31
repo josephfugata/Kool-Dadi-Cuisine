@@ -41,16 +41,40 @@ export default function SocialProof() {
             </p>
           </div>
         </div>
+
+        {/* Mobile View: Stacked testimonials */}
+        <div className="mt-12 grid gap-6 md:hidden">
+          {testimonials.map((testimonial, index) => (
+            <Card key={index} className="flex flex-col items-center justify-center p-6 text-center shadow-lg">
+              <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
+                <Image
+                  className="rounded-full"
+                  src={testimonial.image}
+                  alt={`Photo of ${testimonial.name}`}
+                  width={80}
+                  height={80}
+                  data-ai-hint={testimonial.hint}
+                />
+                <blockquote className="text-lg font-semibold leading-snug">
+                  “{testimonial.review}”
+                </blockquote>
+                <p className="text-sm font-medium text-muted-foreground">— {testimonial.name}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        {/* Desktop View: Carousel */}
         <Carousel
           opts={{
             align: 'start',
             loop: true,
           }}
-          className="w-full max-w-4xl mx-auto mt-12"
+          className="w-full max-w-4xl mx-auto mt-12 hidden md:block"
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/2">
+              <CarouselItem key={index} className="md:basis-1/2">
                 <div className="p-1 h-full">
                   <Card className="h-full flex flex-col items-center justify-center p-6 text-center shadow-lg">
                     <CardContent className="flex flex-col items-center justify-center p-0 gap-4">
