@@ -50,7 +50,7 @@ export default function SocialProof() {
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/2">
+              <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/2">
                 <div className="p-1 h-full">
                   <Card className="h-full flex flex-col items-center justify-center p-6 text-center shadow-lg">
                     <CardContent className="flex flex-col items-center justify-center p-0 gap-4">

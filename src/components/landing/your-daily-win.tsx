@@ -11,7 +11,7 @@ export default function YourDailyWin() {
               Natapos ang malaking project? Naka-survive sa Lunes? Panalo 'yun. I-celebrate 'yang mga small victories with a Solo Box. Ito 'yung perfect at murang reward para sa hard work mo.
             </p>
         </div>
-        <div className="mx-auto grid max-w-4xl grid-cols-3 gap-8 py-12">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 sm:grid-cols-3 gap-8 py-12">
             <div className="flex flex-col items-center gap-2">
                 <Trophy className="w-10 h-10 text-secondary" />
                 <p className="font-semibold">Ginalingan sa Presentation</p>

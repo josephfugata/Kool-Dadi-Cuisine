@@ -29,7 +29,7 @@ export default function ShareTheJoy() {
                 alt="Friends sharing food"
                 width={600}
                 height={400}
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center w-full"
                 data-ai-hint="friends eating"
             />
             <Image
@@ -37,7 +37,7 @@ export default function ShareTheJoy() {
                 alt="Family enjoying a meal"
                 width={600}
                 height={400}
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center w-full"
                 data-ai-hint="family meal"
             />
         </div>
