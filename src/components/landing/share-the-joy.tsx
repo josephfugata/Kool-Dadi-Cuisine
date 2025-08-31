@@ -9,7 +9,7 @@ export default function ShareTheJoy() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Share mo ang Saya, Isang Box sa Isang Oras.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Share mo ang Saya, One Box at a Time.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Ang a+ moments, mas masarap kapag may kasama. I-surprise ang tropa, i-treat ang pamilya, o gawing legendary ang next get-together. Ang Barkada at Party boxes namin, perfect para sa kwentuhan, tawanan, at pag-gawa ng memories.
             </p>
