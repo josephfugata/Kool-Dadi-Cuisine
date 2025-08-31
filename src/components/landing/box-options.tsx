@@ -7,7 +7,7 @@ const boxOptions = [
     name: 'Solo Box',
     tagline: 'Sakto sa\'yo',
     price: '₱89',
-    image: 'https://picsum.photos/400/300',
+    image: '/package-1.webp',
     hint: 'dumpling meal',
     orderMessage: "Boss, pa-order ng Solo Box. Tnx!",
   },
@@ -15,7 +15,7 @@ const boxOptions = [
     name: 'Barkada Box',
     tagline: 'Para sa tropa',
     price: '₱249',
-    image: 'https://picsum.photos/400/300',
+    image: '/package-2.webp',
     hint: 'food platter',
     orderMessage: "Dadi, isang Barkada Box nga. Salamat!",
   },
@@ -23,7 +23,7 @@ const boxOptions = [
     name: 'Party Box',
     tagline: 'Handaan na!',
     price: '₱499',
-    image: 'https://picsum.photos/400/300',
+    image: '/package-3.webp',
     hint: 'party food',
     orderMessage: "Paps, pa-order ng Party Box. Pang-buong pamilya!",
   },
@@ -49,9 +49,9 @@ export default function BoxOptions() {
                   src={box.image}
                   alt={box.name}
                   width={400}
-                  height={300}
+                  height={500}
                   data-ai-hint={box.hint}
-                  className="object-cover w-full h-48"
+                  className="object-cover w-full aspect-[4/5]"
                 />
               </CardHeader>
               <CardContent className="p-6 flex-grow">
