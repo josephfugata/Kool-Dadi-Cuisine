@@ -7,20 +7,20 @@ import {
 
 const faqs = [
     {
-        question: "How do I order?",
-        answer: "Just click any 'Order via Messenger' button on our page! It's like chatting with a friend. Tell us what you want and where you are, and we'll handle the rest."
+        question: "Paano umorder?",
+        answer: "Click mo lang 'yung 'Order via Messenger' button! Parang kachat mo lang tropa mo. Sabi mo lang kung ano'ng gusto mo at saan, kami na bahala."
     },
     {
-        question: "What are your delivery hours?",
-        answer: "We deliver from 10 AM to 10 PM every day, because cravings don't keep a 9-to-5 schedule."
+        question: "Anong oras ang delivery?",
+        answer: "Bukas kami 10 AM to 10 PM araw-araw. Kasi 'di ba, ang gutom, walang pinipiling oras."
     },
     {
-        question: "Is there a minimum order?",
-        answer: "No minimum order! Whether you're treating yourself to a Solo Box or feeding a village with a Party Box, we're happy to serve you."
+        question: "May minimum order ba?",
+        answer: "Walang minimum order! Kahit Solo Box lang para sa'yo o Party Box para sa buong barangay, G kami!"
     },
     {
-        question: "How long does delivery take?",
-        answer: "We're fast! We aim to get your fresh, hot siomai to your doorstep as quickly as possible, typically within 30-45 minutes depending on your location."
+        question: "Gaano kabilis ang delivery?",
+        answer: "Mabilis pa sa alas-kwatro! Mga 30-45 minutes lang, depende sa location mo, darating na 'yang mainit at sariwang siomai mo."
     }
 ]
 
@@ -29,9 +29,9 @@ export default function Faq() {
     <section id="faq" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Still Curious?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">May Tanong Ka Pa?</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We've got answers to your questions.
+              Sagot namin 'yan.
             </p>
         </div>
         <div className="mx-auto max-w-3xl w-full mt-12">

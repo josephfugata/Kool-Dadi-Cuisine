@@ -15,19 +15,19 @@ export default function Hero() {
       <div className="container px-4 md:px-6 text-white">
         <div className="flex flex-col items-center space-y-4">
           <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl font-headline text-shadow-lg">
-            Your Siomai Cravings, Delivered.
+            Gutom? Siomai ang Sagot.
           </h1>
           <p className="max-w-[700px] text-lg md:text-xl">
-            Freshly steamed, irresistibly delicious, and crazy affordable. Get your siomai fix in just a few taps!
+            Sariwa, legit na masarap, at abot-kaya. Isang chat lang, solve na ang cravings!
           </p>
           <div className="mt-6">
             <MessengerButton 
               size="lg"
               variant="secondary"
               className="text-lg px-8 py-6 transition-transform duration-300 hover:scale-110"
-              message="Hi! I'm interested in ordering siomai."
+              message="Boss, pa-order ng siomai! Nagugutom na ako."
             >
-              Order via Messenger
+              Order sa Messenger
             </MessengerButton>
           </div>
         </div>

@@ -5,7 +5,7 @@ interface MessengerButtonProps extends ButtonProps {
   message?: string;
 }
 
-const MESSENGER_USERNAME = "siomai.master"; // Placeholder
+const MESSENGER_USERNAME = "kool.dadi.cuisine"; // Placeholder
 
 export default function MessengerButton({ children, message, ...props }: MessengerButtonProps) {
   const baseUrl = `https://m.me/${MESSENGER_USERNAME}`;

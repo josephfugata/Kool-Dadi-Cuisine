@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Siomai Messenger Bridge',
-  description: 'Fresh and affordable siomai, delivered fast. Order via Messenger!',
+  title: 'Kool Dadi Cuisine',
+  description: 'Sarap na abot-kaya, mabilis na delivery. Order na sa Messenger!',
 };
 
 export default function RootLayout({

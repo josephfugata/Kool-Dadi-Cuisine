@@ -5,27 +5,27 @@ import MessengerButton from './messenger-button';
 const boxOptions = [
   {
     name: 'Solo Box',
-    tagline: 'Perfect for one',
+    tagline: 'Sakto sa\'yo',
     price: '₱89',
     image: 'https://picsum.photos/400/300',
     hint: 'dumpling meal',
-    orderMessage: "Hi! I'd like to order a Solo Box.",
+    orderMessage: "Boss, pa-order ng Solo Box. Tnx!",
   },
   {
     name: 'Barkada Box',
-    tagline: 'Share with friends',
+    tagline: 'Para sa tropa',
     price: '₱249',
     image: 'https://picsum.photos/400/300',
     hint: 'food platter',
-    orderMessage: "Hi! I'd like to order a Barkada Box.",
+    orderMessage: "Dadi, isang Barkada Box nga. Salamat!",
   },
   {
     name: 'Party Box',
-    tagline: 'For the whole crew',
+    tagline: 'Handaan na!',
     price: '₱499',
     image: 'https://picsum.photos/400/300',
     hint: 'party food',
-    orderMessage: "Hi! I'd like to order a Party Box.",
+    orderMessage: "Paps, pa-order ng Party Box. Pang-buong pamilya!",
   },
 ];
 
@@ -35,9 +35,9 @@ export default function BoxOptions() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Choose Your Box</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Pili na ng Box Mo!</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We have the perfect size for any craving or occasion.
+              Kahit anong trip mo, may size kami para sa'yo.
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function BoxOptions() {
               </CardContent>
               <CardFooter className="p-6 pt-0">
                 <MessengerButton message={box.orderMessage} className="w-full" variant="default" size="lg">
-                  Order via Messenger
+                  Order sa Messenger
                 </MessengerButton>
               </CardFooter>
             </Card>

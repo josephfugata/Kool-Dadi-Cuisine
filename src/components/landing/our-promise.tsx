@@ -3,18 +3,18 @@ import { Heart, Smile, Zap } from 'lucide-react';
 const promises = [
   {
     icon: Heart,
-    title: 'Made with Love',
-    description: 'Every batch is prepared with care, as if we were making it for our own family.',
+    title: 'Gawang may Puso',
+    description: 'Bawat siomai, gawa with care, na parang para sa sarili naming pamilya.',
   },
   {
     icon: Smile,
-    title: 'Your Happiness',
-    description: 'We\'re not happy unless you are. We aim to bring a smile to your face with every order.',
+    title: 'Para sa Ngiti Mo',
+    description: 'Hindi kami masaya hangga\'t hindi ka masaya. Goal namin na mapasaya ka sa bawat order.',
   },
   {
     icon: Zap,
-    title: 'Simply Effortless',
-    description: 'From ordering to delivery, we make the entire process smooth and convenient for you.',
+    title: 'Walang Hassle',
+    description: 'Mula pag-order hanggang delivery, ginagawa naming simple at convenient para sa\'yo.',
   },
 ];
 
@@ -23,9 +23,9 @@ export default function OurPromise() {
     <section className="w-full py-12 md:py-24 lg:py-32 bg-primary/5">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Our Promise to You</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Ang Promise Namin Sa\'yo</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
-              It's simple. We're committed to delivering not just siomai, but a delightful experience.
+              Simple lang. Committed kami na maghatid hindi lang ng siomai, kundi ng a good time experience.
             </p>
         </div>
         <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-3">

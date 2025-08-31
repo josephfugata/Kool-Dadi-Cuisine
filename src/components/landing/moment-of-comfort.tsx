@@ -16,17 +16,17 @@ export default function MomentOfComfort() {
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">Your Personal Bite of Comfort.</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">Ang Comfort Food na Laging Nandiyan.</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Long day? Tough meeting? Sometimes, all you need is a moment for yourself. A warm, savory bite that feels like a hug. Our siomai is more than just food; it's your personal comfort break, ready whenever you need it.
+                Pagod sa work? Stress sa life? Minsan, kailangan mo lang ng time para sa sarili mo. Isang mainit at malinamnam na kagat na parang yakap. Ang siomai namin, hindi lang pagkain; ito'y comfort break mo, anytime, anywhere.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <MessengerButton
                 size="lg"
-                message="I need a comfort food break!"
+                message="Dadi, I need comfort food!"
               >
-                Treat Myself
+                Treat ko sarili ko
               </MessengerButton>
             </div>
           </div>

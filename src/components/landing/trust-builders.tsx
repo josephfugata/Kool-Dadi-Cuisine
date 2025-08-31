@@ -3,18 +3,18 @@ import { Leaf, Truck, CircleDollarSign } from 'lucide-react';
 const benefits = [
   {
     icon: Leaf,
-    title: 'Always Fresh',
-    description: 'Made daily with high-quality ingredients for the best taste.',
+    title: 'Laging Fresh',
+    description: 'Araw-araw ginagawa with quality ingredients para sa pinakamasarap na lasa.',
   },
   {
     icon: Truck,
-    title: 'Fast Delivery',
-    description: 'Get your siomai fix delivered straight to your door, quick!',
+    title: 'Mabilis na Delivery',
+    description: 'Ang siomai mo, darating agad sa pinto mo, mabilis pa sa ex mo!',
   },
   {
     icon: CircleDollarSign,
-    title: 'Value for Money',
-    description: 'Generous servings at prices that won\'t break the bank.',
+    title: 'Sulit sa Pera',
+    description: 'Madaming serving sa presyong hindi masakit sa bulsa.',
   },
 ];
 

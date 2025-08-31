@@ -11,19 +11,19 @@ import {
 const testimonials = [
   {
     name: 'Maria G.',
-    review: 'Super sulit! Perfect for lunch sa office. Order ulit bukas!',
+    review: 'Super sulit! Perfect for lunch sa office. Order ulit ako bukas!',
     image: 'https://picsum.photos/100/100',
     hint: 'happy woman',
   },
   {
     name: 'John D.',
-    review: 'The best siomai in town, hands down. The chili garlic is a game-changer. Fast delivery too!',
+    review: 'The best siomai in town, hands down. Yung chili garlic, game-changer. Ang bilis pa ng delivery!',
     image: 'https://picsum.photos/100/100',
     hint: 'smiling man',
   },
   {
     name: 'Sarah L.',
-    review: "My kids love the Barkada Box. It's our go-to for weekend movie nights. So convenient!",
+    review: "Love ng kids ko yung Barkada Box. Go-to namin for weekend movie nights. Napaka-convenient!",
     image: 'https://picsum.photos/100/100',
     hint: 'happy person',
   },
@@ -35,9 +35,9 @@ export default function SocialProof() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">What Our Customers Say</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">Sabi ng mga Suki Namin</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Don't just take our word for it. Here's what people are saying about our siomai.
+              'Wag maniwala sa'min, maniwala ka sa kanila. Ito ang chika nila sa siomai namin.
             </p>
           </div>
         </div>

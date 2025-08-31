@@ -7,19 +7,19 @@ export default function LateNightCravings() {
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
             <Moon className="mx-auto h-12 w-12 text-primary" />
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight font-headline text-primary">Got Late-Night Cravings?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight font-headline text-primary">Gutom sa Gabi? Gets Ka Namin.</h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We get it. Those 10 PM hunger pangs are real. We're here for you. A quick message is all it takes to satisfy that craving and turn your night around.
+                Yung 10 PM gutom hits different, 'no? Nandito kami para sa'yo. Isang message lang, solve na 'yang craving na 'yan at good vibes na ulit ang gabi mo.
             </p>
         </div>
         <div className="mx-auto w-full max-w-sm space-y-2">
             <MessengerButton
-                message="It's late and I'm hungry! Help!"
+                message="Gutom na ako, Dadi! Help!"
                 className="w-full"
                 variant="default"
                 size="lg"
             >
-                Cure My Craving
+                Sagipin Ang Gabi Ko
             </MessengerButton>
         </div>
       </div>
