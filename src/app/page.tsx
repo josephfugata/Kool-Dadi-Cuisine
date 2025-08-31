@@ -14,7 +14,6 @@ import LateNightCravings from '@/components/landing/late-night-cravings';
 import OurPromise from '@/components/landing/our-promise';
 import Faq from '@/components/landing/faq';
 import JoinTheCommunity from '@/components/landing/join-the-community';
-import FloatingCta from '@/components/landing/floating-cta';
 import Footer from '@/components/landing/footer';
 
 export default function Home() {
@@ -37,7 +36,6 @@ export default function Home() {
         <OurPromise />
         <Faq />
         <JoinTheCommunity />
-        <FloatingCta />
       </main>
       <Footer />
     </div>
