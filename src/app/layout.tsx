@@ -80,7 +80,9 @@ export default function RootLayout({
       <head>
       </head>
       <body className="font-body bg-background text-foreground antialiased">
-        {children}
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          {children}
+        </div>
         <Toaster />
       </body>
     </html>
